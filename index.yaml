@@ -32,4 +32,4 @@ entries:
     urls:
     - https://mogofinancial.github.io/argo-helm-repo/releases/download/argo-cd-1.0.0/argo-cd-1.0.0.tgz
     version: 1.0.0
-  generated: "2022-05-10T07:41:17.457396325Z"
+generated: "2022-05-10T07:41:17.457396325Z"
