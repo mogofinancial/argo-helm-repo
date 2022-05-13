@@ -17,7 +17,7 @@ entries:
     description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
       tool for Kubernetes.
     digest: 682f5666f544ac305d61990a6d6c4a704a5785ed182b5ec8ea5e6ece67ceb0bc
-    home: https://github.com/argoproj/argo-helm
+    home: https://github.com/mogofinancial/argo-helm-repo
     icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
     keywords:
     - argoproj
