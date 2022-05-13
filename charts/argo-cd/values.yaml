@@ -1806,7 +1806,7 @@ configs:
 
   # -- *DEPRECATED:* Instead, use `configs.credentialTemplates` and/or `configs.repositories`
   repositoryCredentials: {}
-
+  annotations: {}
   # -- Repository credentials to be used as Templates for other repos
   ## Creates a secret for each key/value specified below to create repository credentials
   credentialTemplates: {}
