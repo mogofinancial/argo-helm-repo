@@ -2,13 +2,14 @@ apiVersion: v2
 appVersion: v2.3.3
 description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery tool for Kubernetes.
 name: argo-cd
-version: 1.0.0
-home: https://github.com/argoproj/argo-helm
+version: 1.0.1
+home: https://github.com/mogofinancial/argo-helm-repo
 icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
 keywords:
   - argoproj
   - argocd
   - gitops
+  - mogofinancial
 maintainers:
   - name: alexec
   - name: alexmt
