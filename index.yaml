@@ -8,6 +8,38 @@ entries:
         - "[Changed]: All metrics Service ports were renamed from 'metrics' to 'http-metrics' (istio compatibility)"
     apiVersion: v2
     appVersion: v2.3.3
+    created: "2022-09-17T00:16:52.563272271Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ee82964a2b3e4e53948cd53bee2f0b505d839003535bcd3f41ea071e95ddb275
+    home: https://github.com/mogofinancial/argo-helm-repo
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    - mogofinancial
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - https://github.com/mogofinancial/argo-helm-repo/releases/download/argo-cd-1.0.6/argo-cd-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Metrics service name can now be changed"
+        - "[Added]: ServiceMonitor now support tlsConfig"
+        - "[Changed]: All metrics Service ports were renamed from 'metrics' to 'http-metrics' (istio compatibility)"
+    apiVersion: v2
+    appVersion: v2.3.3
     created: "2022-05-13T19:15:26.279535165Z"
     dependencies:
     - condition: redis-ha.enabled
@@ -192,4 +224,4 @@ entries:
     urls:
     - https://mogofinancial.github.io/argo-helm-repo/releases/download/argo-cd-1.0.0/argo-cd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-13T19:15:26.279685066Z"
+generated: "2022-09-17T00:16:52.563445282Z"
